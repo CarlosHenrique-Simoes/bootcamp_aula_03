@@ -13,6 +13,10 @@ if altura >= 120:
     elif idade <= 18:
         conta = 7
         print("Valor da entrada: R$ 7,00")
+
+    elif idade <= 45 and idade >= 55:
+        conta = 0
+        print("Valor da entrada: R$ 0,00")
     else:
         conta = 12
         print("Valor da entrada: R$ 12,00")
